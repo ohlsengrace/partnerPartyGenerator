@@ -23,15 +23,12 @@
                                     <segue destination="A7o-qy-COp" kind="show" id="pFw-ZO-iud"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="👯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUF-SF-GVt">
-                                <rect key="frame" x="37" y="387" width="342" height="307"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Wbo-n9-me6">
+                                <rect key="frame" x="0.0" y="243" width="414" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="250"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="FwP-wA-Vm8">
-                                <rect key="frame" x="-12" y="148" width="439" height="206"/>
+                                <rect key="frame" x="-12" y="133" width="439" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -268,6 +265,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="add" width="4096" height="4096"/>
+        <image name="icon" width="3072" height="4096"/>
         <image name="left arrow" width="4096" height="4096"/>
         <image name="right arrow" width="4096" height="4096"/>
         <image name="title" width="4096" height="2303"/>

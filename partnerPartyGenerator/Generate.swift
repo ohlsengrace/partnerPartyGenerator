@@ -29,7 +29,8 @@ func getfreshThemes() -> [String]{
           "Fiesta 🇲🇽",
           "Inmates ⛓️",
           "Construction Crew 🚧" ,
-          "Royalty 👑"
+          "Royalty 👑",
+          "Little White Lies T's ❔"
       ]
     return themes
 }
