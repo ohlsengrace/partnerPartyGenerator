@@ -15,6 +15,12 @@
 		DB20241124BD741300A4E445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB20240F24BD741300A4E445 /* LaunchScreen.storyboard */; };
 		DB20241C24BD741300A4E445 /* partnerPartyGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB20241B24BD741300A4E445 /* partnerPartyGeneratorTests.swift */; };
 		DB20242724BD741400A4E445 /* partnerPartyGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB20242624BD741400A4E445 /* partnerPartyGeneratorUITests.swift */; };
+		DB20243524BD746A00A4E445 /* TiktokViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB20243424BD746A00A4E445 /* TiktokViewController.swift */; };
+		DBC433BE24BEC9980076F86E /* TikTok.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DBC433BD24BEC9980076F86E /* TikTok.mp4 */; };
+		DBF7426524BD822F006E7A2B /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7426424BD822F006E7A2B /* AddingViewController.swift */; };
+		DBF7426724BD8242006E7A2B /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7426624BD8242006E7A2B /* ReviewViewController.swift */; };
+		DBF7426924BD8256006E7A2B /* GeneratedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7426824BD8256006E7A2B /* GeneratedListViewController.swift */; };
+		DBF7426D24BD90F6006E7A2B /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7426C24BD90F6006E7A2B /* Generate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		DB20242224BD741300A4E445 /* partnerPartyGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = partnerPartyGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB20242624BD741400A4E445 /* partnerPartyGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partnerPartyGeneratorUITests.swift; sourceTree = "<group>"; };
 		DB20242824BD741400A4E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB20243424BD746A00A4E445 /* TiktokViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiktokViewController.swift; sourceTree = "<group>"; };
+		DBC433BD24BEC9980076F86E /* TikTok.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TikTok.mp4; sourceTree = "<group>"; };
+		DBF7426424BD822F006E7A2B /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
+		DBF7426624BD8242006E7A2B /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		DBF7426824BD8256006E7A2B /* GeneratedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedListViewController.swift; sourceTree = "<group>"; };
+		DBF7426C24BD90F6006E7A2B /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,15 @@
 		DB20240324BD741100A4E445 /* partnerPartyGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				DBC433BD24BEC9980076F86E /* TikTok.mp4 */,
 				DB20240424BD741100A4E445 /* AppDelegate.swift */,
 				DB20240624BD741100A4E445 /* SceneDelegate.swift */,
 				DB20240824BD741100A4E445 /* ViewController.swift */,
+				DB20243424BD746A00A4E445 /* TiktokViewController.swift */,
+				DBF7426424BD822F006E7A2B /* AddingViewController.swift */,
+				DBF7426624BD8242006E7A2B /* ReviewViewController.swift */,
+				DBF7426824BD8256006E7A2B /* GeneratedListViewController.swift */,
+				DBF7426C24BD90F6006E7A2B /* Generate.swift */,
 				DB20240A24BD741100A4E445 /* Main.storyboard */,
 				DB20240D24BD741300A4E445 /* Assets.xcassets */,
 				DB20240F24BD741300A4E445 /* LaunchScreen.storyboard */,
@@ -235,6 +253,7 @@
 				DB20241124BD741300A4E445 /* LaunchScreen.storyboard in Resources */,
 				DB20240E24BD741300A4E445 /* Assets.xcassets in Resources */,
 				DB20240C24BD741100A4E445 /* Main.storyboard in Resources */,
+				DBC433BE24BEC9980076F86E /* TikTok.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB20240924BD741100A4E445 /* ViewController.swift in Sources */,
+				DBF7426924BD8256006E7A2B /* GeneratedListViewController.swift in Sources */,
 				DB20240524BD741100A4E445 /* AppDelegate.swift in Sources */,
+				DBF7426724BD8242006E7A2B /* ReviewViewController.swift in Sources */,
+				DBF7426D24BD90F6006E7A2B /* Generate.swift in Sources */,
+				DBF7426524BD822F006E7A2B /* AddingViewController.swift in Sources */,
+				DB20243524BD746A00A4E445 /* TiktokViewController.swift in Sources */,
 				DB20240724BD741100A4E445 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
