@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB20240124BD741100A4E445 /* partnerPartyGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partnerPartyGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB20240124BD741100A4E445 /* Partner Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Partner Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB20240424BD741100A4E445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB20240624BD741100A4E445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB20240824BD741100A4E445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		DB20240224BD741100A4E445 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB20240124BD741100A4E445 /* partnerPartyGenerator.app */,
+				DB20240124BD741100A4E445 /* Partner Party.app */,
 				DB20241724BD741300A4E445 /* partnerPartyGeneratorTests.xctest */,
 				DB20242224BD741300A4E445 /* partnerPartyGeneratorUITests.xctest */,
 			);
@@ -157,7 +157,7 @@
 			);
 			name = partnerPartyGenerator;
 			productName = partnerPartyGenerator;
-			productReference = DB20240124BD741100A4E445 /* partnerPartyGenerator.app */;
+			productReference = DB20240124BD741100A4E445 /* Partner Party.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DB20241624BD741300A4E445 /* partnerPartyGeneratorTests */ = {
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.partnerPartyGenerator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Partner Party";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.partnerPartyGenerator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Partner Party";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
