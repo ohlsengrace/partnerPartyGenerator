@@ -30,7 +30,10 @@ func getfreshThemes() -> [String]{
           "Inmates ⛓️",
           "Construction Crew 🚧" ,
           "Royalty 👑",
-          "Little White Lies T's ❔"
+          "Little White Lies T's ❔",
+          "Euphoria ✨",
+          "Golf Bros & Tennis Hoes 🏌️‍♂️🎾",
+          "Reverse Genders 🏳️‍⚧️"
       ]
     return themes
 }
